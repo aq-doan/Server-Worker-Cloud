@@ -7,9 +7,6 @@ This application was designed to simulate cloud elasticity, where the server wil
 
 Some of the important features implemented include: load balancing, fault tolerance (checking if the request is processed and completed properly, if not redirect to another worker if failed).
 
-## Prerequisites
-
-
 ## Files
 
 - `Client.java`: Handles client-side operations and requests.

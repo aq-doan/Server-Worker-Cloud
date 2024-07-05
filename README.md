@@ -3,6 +3,10 @@
 
 This project implements a PaaS cloud-based weather service involving a DQS server and client interaction. The components include the client, server, worker, user, and request handling.
 
+This application was designed to simulate cloud elasticity, where the server will automatically perform load balancing based on the number of available workers as well as the size of the requests from the clients. 
+
+Some of the important features implemented include: load balancing, fault tolerance (checking if the request is processed and completed properly, if not redirect to another worker if failed).
+
 ## Prerequisites
 
 
